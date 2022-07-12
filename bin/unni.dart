@@ -1,10 +1,10 @@
+import 'dart:io';
+
 void main(List<String> arguments) {
-  String name="UNNI";
-  int age=23;
-  String email_id="unniedayaranz004";
-  double cgpa=1.4+age;
-  print('My name is ${name}');
-  print('Age: ${age}years old');
-  print('Email: ${email_id}@gmail.com');
-  print('CGPA ===: ${cgpa+cgpa}');
+  var name="UNNI";
+  var age=23;
+  var email_id="unniedayaranz004";
+  var cgpa=1.4;
+
+  stdout.write("my name is $name");
 }
